@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    align-items: center;
+    width: calc(100% - 5vw);
+    height: calc(100% - 8vh);
+    position: absolute;
+    left: 4vh;
+    top: 4vh;
+}
+#logo img{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+
+}
+/*
+.logo span{
+    font-weight: 600;
+    padding: 0;
+}
+
+#blue {
+    color: blue;
+}
+
+#red{
+    color: red;
+}
+
+#orange{
+    color: orange;
+}
+
+#green{
+    color: green;
+}
+*/
+.nav .links {
+    display: flex;
+    align-items:flex-end;
+    list-style: none;
+    padding-left: 70vw;
+    gap: 35px;
+  }
+  .nav .links a {
+    text-decoration: none;
+    color: #333;
+    
+    
+  }
+  .nav .links a:hover {
+    color: black;
+  }
+  
+#search{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#search-input{
+    width: 55vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    outline: none;
+    top: 60%;
+}
+
+#search-button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#lucky-button {
+    background-color: #0f9d58;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+
+#search-button:hover, #lucky-button:hover {
+    background-color: #357ae8;
+}
+
+
+#logo1 img{
+    width: 150px;
+}
+
+#header{
+   margin-left: 50px;
+}
+
+#red-color{
+    color: red;
+    align-items: center;
+}
+
+
+
+.search-table{
+    margin-left: 50px;
+}
+
+.search-table td {
+    padding: 10px 0;
+}
+
+#search-bar{
+    width: 50vw;
+    cursor:auto;
+    height: 25px;
+    outline: #357ae8;
+}
+
+#table{
+    margin-top: 15px;
+    border: 1px solid#3333338e;
+}
+
+#info{
+    font-size: 11px;
+    color: #333;
+}
+
+.but_adsearch{
+    text-align: right;
+}
+ #butto{
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    left: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin: 0;
+    }
+
+    nav li {
+        margin: 0 5px;
+    }
+}
